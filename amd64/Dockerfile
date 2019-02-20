@@ -1,10 +1,12 @@
 # Main Image
 FROM alpine:3.6
 
-LABEL maintainer="Predix Builder Relations"
+LABEL maintainer="Predix Edge Application Services Team"
 LABEL hub="https://hub.docker.com"
 LABEL org="https://hub.docker.com/u/predixadoption"
-LABEL version="1.0.2"
+LABEL repo="predix-edge-sqlite"
+LABEL imagename="predix-edge-sqlite-amd64"
+LABEL version="1.0.5"
 LABEL support="https://forum.predix.io"
 LABEL license="https://github.com/PredixDev/predix-docker-samples/blob/master/LICENSE.md"
 
