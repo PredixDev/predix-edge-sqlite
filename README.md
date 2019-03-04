@@ -41,10 +41,14 @@ The Dockerfile is used to compile your app into a Docker image taht can be run i
 The *docker build* command is used to generate the docker image from the source code of your app. The volume /data/sqlite/ is exposed to store the sqlite3 database. Executing this command from the commandline will create a Docker image named *sqlite* with a version of *1.0.0*.
 
 ```bash
-$ docker build -t sqlite:1.0.0 .
+docker build -t predixedge/sqlite:<latest-tag-version-here> .
 ```
 
 If your build machine is behind a proxy you will need to specify the proxies as build arguments. You can pull in the proxy values from the environment variables on your machine.
+
+```bash
+docker build --build-arg https_proxy --build-arg no_proxy= --build-arg http_proxy -t predixedge/sqlite:<latest-tag-version-here> .
+```
 
 ## Create table by sample application script
 

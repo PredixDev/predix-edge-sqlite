@@ -6,7 +6,7 @@ LABEL hub="https://hub.docker.com"
 LABEL org="https://hub.docker.com/u/predixedge"
 LABEL repo="predix-edge-sqlite-amd64"
 LABEL imagename="predix-edge-sqlite-amd64"
-LABEL version="1.0.9"
+LABEL version="1.0.10"
 LABEL support="https://forum.predix.io"
 LABEL license="https://github.com/PredixDev/predix-docker-samples/blob/master/LICENSE.md"
 
