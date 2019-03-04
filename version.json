@@ -1,6 +1,6 @@
 {
   "name": "MySql Database App for Predix Edge",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "private": true,
   "dependencies": {
     "local-setup": "https://github.com/PredixDev/local-setup#1.0.106"
